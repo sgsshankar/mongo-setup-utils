@@ -41,6 +41,18 @@ $./mongodata <host> <port> <db> <user> <password>
 $./mongoinit localhost 27017 local user pass
 ```
 
+### mongoscripts
+Scripts required by MongoDB for maintenance and housekeeping. Can also be used to schedule scripts to run in fixed time from the folder mongoscripts
+
+**Usage**
+```sh
+$./mongoscripts <host> <port> <db> <user> <password> [<script>]
+```
+
+*Example*
+```sh
+$./mongoscript localhost 27017 local user pass
+```
 
 License
 ----
